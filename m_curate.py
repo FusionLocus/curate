@@ -2,18 +2,6 @@
 """
 m_curate: Some handling utilities for work with Picasso data. Contains several small functions designed to make life a little easier.
 Author: Joe Pollacco
-Notes: 
-Format of picasso data seems to be as one big dataset (moderately weird) so have to have more advance knowledge of what exists where.
-Structure is as one big dataset. Individual rows correspond to (groups of) Important columns: 
-   n_events 2
-   sx_mean  11
-   sx_std 12
-   sy_mean 13
-   sy_std 14
-   lpx_mean 17
-   lpx_std 18
-   lpy_mean 19
-   lpy_std 20    
 """
 
 
