@@ -1,5 +1,6 @@
 # m_curate
 Curate contains a few basic tools for working with data from Picasso. More tools will be added as I go (hopefully not just trivial ones).
+
 Author: Joe Pollacco, Undergraduate, Department of Physics, University of Oxford
 
 Some notes about how Picasso stores its data: 
