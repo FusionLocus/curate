@@ -8,13 +8,43 @@ Some notes about how Picasso stores its data:
 Picasso stores much of its data as hdf5 files, which contain a structure of named groups and datasets.
 The format of picasso data seems to be as one big dataset. Individual rows correspond to (groups of) events. 
 
-Some important columns and the data they contain are given below: 
+A complete column listing is given:
+
    n_events 2
-   sx_mean  11
+   frame_mean 3
+   frame_std 4
+   x_mean 5
+   x_std 6
+   y_mean 7
+   y_std 8
+   photons_mean 9
+   photons_std 10
+   sx_mean 11
    sx_std 12
    sy_mean 13
    sy_std 14
+   bg_mean 15
+   bg_std 16
    lpx_mean 17
    lpx_std 18
    lpy_mean 19
-   lpy_std 20    
+   lpy_std 20
+   ellipticity_mean 21
+   ellipticity_std 22
+   net_gradient_mean 23
+   net_gradient_std 24
+   group_mean 25
+   group_std 26
+   len_mean 27
+   len_std 28
+   n_mean 29
+   n_std 30
+   photon_rate_mean 31
+   photon_rate_std 32
+   dark_mean 33
+   dark_std 34
+   n_units 35
+   locs 36
+   length_cdf 37
+   dark_cdf 38
+   
