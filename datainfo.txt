@@ -45,3 +45,15 @@ A complete column listing is given for pick properties data:
    dark_cdf 38
 
 And for localisation data:
+   frame 0
+   x 1
+   y 2
+   photons 3
+   sx 4
+   sy 5
+   bg 6
+   lpx 7
+   lpy 8
+   ellipticity 9
+   net_gradient 10
+   group 11
