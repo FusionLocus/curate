@@ -6,23 +6,22 @@ plotting.py - contains a few basic  functions for rendering plots quickly.
 
 import matplotlib.pyplot as plt
 
-"""
-Name: f_1dhistplotter
-Description: *Very* simple function to plot a 1D histogram of the desired quantity.
-Arguments:
-    a_histdata - (Float/Int Array) 1D numpy array.
-    v_bins - (Int) Number of bins to use. Default: 20.
-    v_qname - (String) Name of quantity being plotted. Default: 'x'.
-    v_qunit - (String) Unit of quantity being plotted.
-Returns:
-    n - array containing histogram bin values.
-    
-Dependencies: numpy, matplotlib.
-Last Updated: 24/06/2020
-"""
-
 
 def f_1dhistplotter(a_histdata,v_bins=20,v_qname='x',v_qunit=''):
+    """
+    Description: *Very* simple function to plot a 1D histogram of the desired quantity.
+    
+    Arguments:
+        a_histdata - (Float/Int Array) 1D numpy array.
+        v_bins - (Int) Number of bins to use. Default: 20.
+        v_qname - (String) Name of quantity being plotted. Default: 'x'.
+        v_qunit - (String) Unit of quantity being plotted.
+    Returns:
+        n - array containing histogram bin values.
+        
+    Dependencies: numpy, matplotlib.
+    Last Updated: 24/06/2020
+    """
     # Prepare figure
     fig, ax = plt.subplots()
     # Generate Histogram

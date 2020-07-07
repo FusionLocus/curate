@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Classes and instance variables available for use.
+Classes and instance variables available for use. 
+Each instance represents a data field in picasso data.
 """
 class c_PickField:
     def __init__(self,name,idx,unit):

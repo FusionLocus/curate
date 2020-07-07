@@ -1,0 +1,10 @@
+README.md
+setup.py
+curate.egg-info/PKG-INFO
+curate.egg-info/SOURCES.txt
+curate.egg-info/dependency_links.txt
+curate.egg-info/top_level.txt
+curatemain/__init__.py
+curatemain/plotting.py
+curatemain/reading.py
+curatemain/utilities.py
